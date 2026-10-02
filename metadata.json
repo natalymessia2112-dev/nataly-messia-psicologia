@@ -1,0 +1,6 @@
+{
+  "name": "Nataly Messia | Psicóloga",
+  "description": "Site profissional de psicoterapia breve e acolhimento online para adultos no Brasil e no exterior com a psicóloga Nataly Pereira Messia (CRP 08/28444).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

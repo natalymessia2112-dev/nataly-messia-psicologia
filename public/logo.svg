@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="210 60 540 860" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Outer Calligraphic Heart/Teardrop Loop -->
+  <path
+    d="M 434 815 C 360 865 260 830 235 700 C 210 590 270 450 380 340 C 490 230 610 135 690 92 C 720 76 735 82 730 110 C 724 140 690 220 665 310 C 642 385 638 460 655 530 C 675 615 728 660 722 740 C 712 830 635 905 545 910 C 480 905 475 790 485 650"
+    stroke-width="13"
+  />
+
+  <!-- Center Figure: Head Loop -->
+  <path
+    d="M 490 410 C 499 410 505 423 504 438 C 503 453 495 462 488 462 C 481 462 476 450 478 435 C 480 420 484 410 490 410 Z"
+    stroke-width="10"
+  />
+
+  <!-- Center Figure: Left Shoulder & Arm -->
+  <path
+    d="M 483 462 C 468 470 445 490 438 525 C 432 555 430 595 432 630"
+    stroke-width="10"
+  />
+
+  <!-- Center Figure: Right Shoulder & Arm -->
+  <path
+    d="M 495 465 C 512 472 525 492 526 525 C 527 560 523 615 517 655"
+    stroke-width="10"
+  />
+
+  <!-- Center Figure: Central Torso / Spine Line -->
+  <path
+    d="M 488 472 C 488 530 478 610 466 690 C 458 745 454 785 452 810"
+    stroke-width="10"
+  />
+</svg>

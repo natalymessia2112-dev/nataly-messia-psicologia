@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #FAF5EE;
+    --color-ivory-warm: #F4EDE2;
+    --color-sand-golden: #E8DACB;
+    --color-sand-border: #D6C2AF;
+    --color-terracotta: #A3482F;
+    --color-terracotta-dark: #8C3B24;
+    --color-terracotta-light: #B8593E;
+    --color-moss-deep: #2A3B26;
+    --color-moss-night: #1F2C1C;
+    --color-moss-soft: #3B4E36;
+    --color-brown-warm: #342117;
+    --color-brown-espresso: #20130C;
+    --color-text-main: #20130C;
+    --color-text-body: #38281E;
+    --color-text-muted: #69564A;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #38281E;
+    background-color: #FAF5EE;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  .font-editorial-signature {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    font-style: italic;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+}
+
+/* Custom delicate animation and utility classes */
+@keyframes fadeInGentle {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-gentle {
+  animation: fadeInGentle 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
